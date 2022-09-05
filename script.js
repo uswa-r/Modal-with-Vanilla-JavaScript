@@ -3,9 +3,9 @@ const modal = document.querySelector('.modal-overlay');
 const closeBtn = document.querySelector('.close-btn');
 
 modalBtn.addEventListener('click', function() {
-    modalOverlay.classList.add('open-modal');
+    modal.classList.add('open-modal');
 });
 
 closeBtn.addEventListener('click', function() {
-    modalOverlay.classList.remove('open-modal');
+    modal.classList.remove('open-modal');
 });

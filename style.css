@@ -77,6 +77,8 @@ body {
     color: var(--clr-grey-1);
     line-height: 1.5;
     font-size: 0.875rem;
+    background-image: url(/mybg.jpg);
+    background-size: cover;
 }
 
 ul {
